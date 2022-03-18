@@ -1,0 +1,24 @@
+{
+  "name": "@technically/img-src-placeholder",
+  "version": "0.0.0",
+  "description": "Micro library to generate data-uri placeholder images of a given size",
+  "keywords": [
+    "image",
+    "placeholder",
+    "data-uri"
+  ],
+  "author": "Ivan Voskoboinyk <ivan@voskoboinyk.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technically-js/img-src-placeholder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/technically-js/img-src-placeholder/issues"
+  },
+  "homepage": "https://github.com/technically-js/img-src-placeholder#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
