@@ -26,6 +26,11 @@
       "default": "./dist/placeholder.cjs"
     }
   },
+  "files": [
+    "./dist/placeholder.d.ts",
+    "./dist/placeholder.cjs",
+    "./dist/placeholder.mjs"
+  ],
   "scripts": {
     "build": "npm run build:esm && npm run build:commonjs",
     "build:esm": "tsc --project . && mv dist/placeholder.js dist/placeholder.mjs",
