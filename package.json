@@ -19,6 +19,7 @@
   "homepage": "https://github.com/technically-js/img-src-placeholder#readme",
   "main": "dist/placeholder.cjs",
   "module": "dist/placeholder.mjs",
+  "types": "dist/placeholder.d.ts",
   "exports": {
     ".": {
       "types": "./dist/placeholder.d.ts",
