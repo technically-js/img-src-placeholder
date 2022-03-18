@@ -56,8 +56,13 @@ export function placeholder(width: number, height: number): string {
     0x3B,
   ];
 
-  const buffer = String.fromCharCode(...bytes);
-  const base64 = btoa(buffer);
+  return 'data:image/gif;base64,' + base64(bytes);
+}
 
-  return 'data:image/gif;base64,' + base64;
+function base64(buffer: number[]): string {
+  if (typeof btoa === 'function') {
+    return btoa(String.fromCharCode(...buffer));
+  }
+
+  return Buffer.from(buffer).toString('base64');
 }
