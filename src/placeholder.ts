@@ -10,7 +10,7 @@ export function placeholder(width: number, height: number): string {
     && width === Math.round(width) && height === Math.round(height);
 
   if (!valid) {
-    throw new Error('Width and height have to be integer numbers between 0 and 65535.');
+    throw new Error('Width and height have to be integer numbers between 0 and 65536.');
   }
 
   const widthBytes = [width % 256, Math.floor(width / 256)];
