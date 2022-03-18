@@ -21,8 +21,8 @@
   "module": "dist/placeholder.mjs",
   "exports": {
     ".": {
-      "import": "./dist/placeholder.mjs",
       "types": "./dist/placeholder.d.ts",
+      "import": "./dist/placeholder.mjs",
       "default": "./dist/placeholder.cjs"
     }
   },
