@@ -1,6 +1,6 @@
 {
   "name": "@technically/img-src-placeholder",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Micro library to generate data-uri placeholder images of a given size",
   "keywords": [
     "image",
@@ -27,9 +27,8 @@
     }
   },
   "files": [
-    "./dist/placeholder.d.ts",
-    "./dist/placeholder.cjs",
-    "./dist/placeholder.mjs"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "npm run build:esm && npm run build:commonjs",
