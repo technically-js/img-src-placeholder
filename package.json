@@ -1,6 +1,6 @@
 {
   "name": "@technically/img-src-placeholder",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Micro library to generate data-uri placeholder images of a given size",
   "keywords": [
     "image",
