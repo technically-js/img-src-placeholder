@@ -35,7 +35,9 @@
     "build": "npm run build:esm && npm run build:commonjs",
     "build:esm": "tsc --project . && mv dist/placeholder.js dist/placeholder.mjs",
     "build:commonjs": "tsc --project ./tsconfig.commonjs.json && mv dist/placeholder.js dist/placeholder.cjs",
-    "test": "node test/placeholder.test.mjs",
+    "test": "npm run test:esm && npm run test:commonjs",
+    "test:esm": "node test/placeholder.test.mjs",
+    "test:commonjs": "node test/placeholder.test.cjs",
     "clean": "rm -rf node_modules/ dist/* package-lock.json",
     "release": "npm run clean && npm install && npm run build && npm run test && np"
   },
